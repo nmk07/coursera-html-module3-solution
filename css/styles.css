@@ -1,0 +1,44 @@
+.navbar-header .navbar-brand{
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold ;
+}
+#our-menu{
+    margin: 25px;
+    font-size: 1.8em;
+    color: #000;
+}
+h3.panel-title{
+    text-align: center;
+    font-size: 1.5em;
+    color: #000;
+    margin-top: 10px;
+}
+/* drop down menu list */
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > .active > a {
+    text-align: center;
+    color: #000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a:hover{
+    font-weight: bolder;
+    color: #000;
+    text-shadow: 1px 1px 1px 1px;
+}
+.navbar-header > button.navbar-toggle{
+    border: 1px solid #000;
+    border-radius: 0;
+}
+/* panel content */
+.panel, .panel-default > .panel-heading{
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 0;
+}
+.panel-body{
+    margin-bottom: 50px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #000;
+}
